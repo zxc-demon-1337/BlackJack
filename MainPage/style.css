@@ -1,0 +1,58 @@
+html, body, main{
+    height: 100vh;
+}
+*{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+main{
+
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../src/Frame12.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+
+}
+
+.buttons{
+    display:  flex;
+    flex-direction: column;
+
+    margin-top: 100px;
+
+}
+
+h1{
+    font-size: 128px;
+    color: #CAE9FF;
+}
+span{
+    color: #CAE9FF;
+    cursor: pointer;
+    font-size: 80px;
+    background-color: #5FA8D3;
+    margin-bottom: 20px;
+    padding: 10px 80px;
+    text-align: center;
+    border-radius: 35px;
+    transform: scale(1);
+    transition: transform .2s ease;
+}
+
+span:hover{
+    transform: scale(1.1);
+    transition: transform .2s ease;
+}
+
+span:active{
+    transform: scale(1.2);
+    transition: transform .2s ease;
+}
+
